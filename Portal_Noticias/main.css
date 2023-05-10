@@ -1,0 +1,166 @@
+* {
+    /* Reset do estilo imposto pelo Browser */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header{ *** Ver anotação!
+    background-color: #2f3640;
+} */
+
+body > header, footer{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+#footer{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+footer p{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a{
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+.container{
+    width: 1366px; /*Largura padrão para telas HD*/
+    margin: 0 auto 0 auto; /*Definindo as margens do container */
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /*Definindo o espaço entre os elementos da página. */
+}
+
+.articles article img{
+    /*height: 180px; Definindo altura máxima da imagem 
+    (o browser vai manter a proporção em relação à largura)*/
+    width: 100%; /*define que a imagem se ajusta ao tamanho da coluna*/
+}
+
+.articles article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2, 
+.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover{ /*ação ao posicionar o cursor sobre o botão */
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a{
+    background-color: #009432;
+}
+
+#economy{
+    background-color: #f8f59f;
+}
+
+#economy .articles article a{
+    background-color: #ff9f1a;
+}
+
+#travel{
+    background-color: #669999;
+}
+
+#travel .articles article a{
+    background-color: #003333;
+}
+
+#tasty{
+    background-color: #D46A6A;
+}
+
+#tasty .articles article a{
+    background-color: #801515;
+}
+
+
+/* Propriedades utilizadas antes da Aula_05
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: green;
+}
+
+#economy {
+    color: goldenrod;
+}
+
+.creation-date{
+    color: #ccc;
+} */
