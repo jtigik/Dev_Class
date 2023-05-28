@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <title>Formulário de Cadastro</title>
+
+</head> 
+<body>
+    <header>
+        <div class="container container_flex">
+            <h1>Cadastro promoção</h1>
+            <div class="menu_hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#sobre_a_loja">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#destaque">Em destaque</a>
+                    </li>
+                    <li>
+                        <a href="#promocao">Promoções</a>
+                    </li>
+                    <li>
+                        <a href="#formulario">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="carrossel_imagens">
+        <img src="./images/assassins-creed-valhalla.png" alt="A_Creed"/>
+        <img src="./images/batlefield_V.png" alt="BFV"/>
+        <img src="./images/CS_GO.png" alt="CS_GO"/>
+        <img src="./images/fh_5.png" alt="Forza_5"/>
+    </div>
+    
+    <section id="formulario">
+        <div class="container">
+            <!-- <h2>Cadastre-se aqui:</h2> -->
+            <form>
+                <div class="form_campo">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" name = "nome" id="nome">
+                </div>
+                <div class="form_campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form_campo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" name="telefone" id="telefone">
+                </div>
+                <div class="form_campo">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf">
+                </div>
+                <div class="form_campo">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" name="endereco" id="endereco">
+                </div>
+                <div class="form_campo">
+                    <label for="cep">CEP:</label>
+                    <input type="text" name="cep" id="cep">
+                </div>
+                <button type="submit" id="sendTo">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container container_flex">
+            <p>
+                2023 &copy; Lan do House - Todos os direitos reservados.
+            </p>
+            <ul class="container_flex">
+                <li>
+                    <a href="#">
+                        <img src="./icons/facebook.png" alt="Facebook logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icons/instagram.png" alt="Instagram logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icons/youtube.png" alt="YouTube logo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
