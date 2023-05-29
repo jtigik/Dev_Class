@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakpoints</title>
+    <style>
+        li{
+            max-width: 100%;
+            list-style-type: none;
+        }
+
+        li img{
+            width: 100%;
+        }
+
+        @media screen and (min-width: 1366px){
+            body{
+                background-color: red;
+            }
+            li{
+                max-width: 33%;
+                float: left;
+            }
+        }
+
+        @media screen and (orientation: portrait) and (max-width: 640px){
+            body{
+                background-color: red;
+            }
+            
+        }
+
+        @media print {
+            h3{
+                color: red;
+            }
+            body{
+                background-color: antiquewhite;
+            }
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <img src="../images/Green_Sneaker.png" alt="" srcset="">
+            <h3>Tênis All Star cano alto verde</h3>
+        </li>
+        <li>
+            <img src="../images/Green_Sneaker.png" alt="" srcset="">
+            <h3>Tênis All Star cano alto verde</h3>
+        </li>
+        <li>
+            <img src="../images/Green_Sneaker.png" alt="" srcset="">
+            <h3>Tênis All Star cano alto verde</h3>
+        </li>
+    </ul>
+</body>
+</html>
