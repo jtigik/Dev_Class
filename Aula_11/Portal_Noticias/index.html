@@ -19,7 +19,10 @@
                 <button type="submit">Pesquisar</button>
             </form>
         </div>
-        <nav>
+        <div class="btn_menu">
+            <button type="button">Abrir Menu</button>
+        </div>
+        <nav class="container">
             <ul class="menu">
                 <li>
                     Esportes
@@ -53,5 +56,94 @@
             <div class="clear"></div>
         </nav>
     </header>
+    <div class="container conteudo">
+        <main><!-- Conteudo principal -->
+            <section class="destaque">
+                <h2>Em destaque</h2>
+                <article class="noticia">
+                    <a href="#">
+                        <img src="https://via.placeholder.com/320x320"/>
+                        <h3>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime ducimus architecto nulla voluptatibus repudiandae.
+                        </h3>
+                    </a>
+                </article>
+            </section>
+            <section>
+                <h2>Últimas notícias</h2>
+                <div class="noticias">
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/320x320"/>
+                            <h3>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime ducimus architecto nulla voluptatibus repudiandae repellendus adipisci corrupti et dolore, commodi illo soluta.
+                            </h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/320x320"/>
+                            <h3>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime ducimus architecto nulla voluptatibus repudiandae repellendus adipisci corrupti et dolore, commodi illo soluta.
+                            </h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/320x320"/>
+                            <h3>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime ducimus architecto nulla voluptatibus repudiandae repellendus adipisci corrupti et dolore, commodi illo soluta.
+                            </h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/320x320"/>
+                            <h3>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime ducimus architecto nulla voluptatibus repudiandae repellendus adipisci corrupti et dolore, commodi illo soluta.
+                            </h3>
+                        </a>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <aside><!-- Barra lateral -->
+            <section class="novidades">
+                <h2>Novidades</h2>
+                <article class="noticia">
+                    <a href="#">
+                        <img src="https://via.placeholder.com/320x320"/>
+                        <h3>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </h3>
+                    </a>
+                </article>
+                <article class="noticia">
+                    <a href="#">
+                        <img src="https://via.placeholder.com/320x320"/>
+                        <h3>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </h3>
+                    </a>
+                </article>
+                <article class="noticia">
+                    <a href="#">
+                        <img src="https://via.placeholder.com/320x320"/>
+                        <h3>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </h3>
+                    </a>
+                </article>
+            </section>
+        </aside>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.btn_menu button').click(function(){
+                $('.menu').slideToggle();
+            })
+        })
+    </script>
 </body>
 </html>
