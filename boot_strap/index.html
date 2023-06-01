@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        table{
+            max-width: 640px;
+        }
+
+        .accordion-item{
+            max-width: 640px;
+        }
+
+    </style>
+</head>
+<body>
+    <table class="table table-success">
+        <caption>Tabela de produtos</caption>
+        <thead>
+            <th>Nome do produto</th>
+            <th>Preço original</th>
+            <th>Preço atual</th>
+            <th>Desconto</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>iPhone 13</td>
+                <td>R$ 7.000,00</td>
+                <td>R$ 5.000,00</td>
+                <td>R$ 2.000,00</td>
+            </tr>
+            <tr>
+                <td>iPhone 13</td>
+                <td>R$ 7.000,00</td>
+                <td>R$ 5.000,00</td>
+                <td>R$ 2.000,00</td>
+            </tr>
+            <tr>
+                <td>iPhone 13</td>
+                <td>R$ 7.000,00</td>
+                <td>R$ 5.000,00</td>
+                <td>R$ 2.000,00</td>
+            </tr>
+            <tr>
+                <td>iPhone 13</td>
+                <td>R$ 7.000,00</td>
+                <td>R$ 5.000,00</td>
+                <td>R$ 2.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="accordion">
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta1">Pergunta 1</button>
+            </div>
+            <div id="resposta1" class="accordio-collapse collapse show">
+                <div class="accordion-body">
+                    Resposta da pergunta 1
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta2">Pergunta 2</button>
+            </div>
+            <div id="resposta2" class="accordio-collapse collapse">
+                <div class="accordion-body">
+                    Resposta da pergunta 2
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-success btn-sm">Clique</button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
