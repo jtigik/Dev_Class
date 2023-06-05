@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        .carousel-item{
+            max-height: 640px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="carousel-sample"class="carousel slide" data-bs-ride="carousel"> 
+            <div class="carousel-inner">
+                <div data-bs-interval="2000" class="carousel-item active">
+                    <img src="https://cdn.pixabay.com/photo/2023/05/31/18/15/st-stephens-basilica-8031985_1280.jpg" >
+                    <div class="carousel-caption">
+                        <h2>Foto Basílica</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2023/05/19/13/28/bird-8004544_1280.jpg" >
+                    <div class="carousel-caption">
+                        <h2>Foto Beija-Flor</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2023/05/25/19/48/russian-orthodox-church-8018200_1280.jpg" >
+                    <div class="carousel-caption">
+                        <h2>Foto Mesquita </h2>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#carousel-sample" data-bs-slide="prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#carousel-sample" data-bs-slide="next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-sample" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-sample" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-sample" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
