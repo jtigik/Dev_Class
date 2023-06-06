@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <title>Modal</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exemplo_modal">
+                    Modal genérico
+                </button>
+                <div class="modal" id="exemplo_modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5>Título da Modal</h5>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, vitae necessitatibus. Sequi, obcaecati aliquid. Repellendus ea eos minima ut, iusto in velit odio assumenda blanditiis, eveniet vitae alias possimus modi.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <h5>Rodapé da Modal</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal_fechar">
+                    Modal Fechar
+                </button>
+                <div class="modal" id="modal_fechar" data-bs-backdrop="static">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5>Título da Modal</h5>
+                                <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, vitae necessitatibus. Sequi, obcaecati aliquid. Repellendus ea eos minima ut, iusto in velit odio assumenda blanditiis, eveniet vitae alias possimus modi.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <h5>Rodapé da Modal</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal_Y/N">
+                    Modal Y/N
+                </button>
+                <div class="modal" id="modal_Y/N" data-bs-backdrop="static">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5>Título da Modal</h5>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, vitae necessitatibus. Sequi, obcaecati aliquid. Repellendus ea eos minima ut, iusto in velit odio assumenda blanditiis, eveniet vitae alias possimus modi.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">cancelar</button>
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Confirmar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            const modalExemplo = new bootstrap.Modal('#exemplo_modal');
+            setTimeout(function(){
+                modalExemplo.show();
+            }, 1000);
+        })
+    </script>
+</body>
+</html>
