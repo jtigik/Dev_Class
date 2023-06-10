@@ -6,26 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./lib/bootstrap.min.css">
     <title>Dropdown</title>
+    <style>
+        .dropdown-menu li {
+            position: relative;
+        }
+        .dropdown-menu li a{
+            text-decoration: none;
+            color: chocolate;
+        }
+        .dropdown-menu li a:hover{
+            text-decoration: none;
+            color: chocolate;
+        }
+        .dropdown-menu .dropdown-submenu {
+            display: none;
+            position: absolute;
+            left: 100%;
+            top: 7px;
+        }
+        .dropdown-menu .dropdown-submenu-left {
+            right: 100%;
+            left: auto;
+        }
+        .dropdown-menu > li:hover > .dropdown-submenu {
+            display: block;
+            color: chocolate;
+        }
+
+        buttom{
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <div class="dropdown">
-            <button data-bs-toggle="dropdown" class="btn btn-primary dropdown-toggle">
-                Cadastrar
-            </button>
-            <ul class="dropdown-menu">
-                <li class="dropdown-item">
-                    <a href="#">Novo usuário</a>
-                </li>
-                <li class="dropdown-item">
-                    <a href="#">Novo fornecedor</a>
-                </li>
-                <li class="dropdown-item">
-                    <a href="#">Novo funcionário</a>
-                </li>
-            </ul>
+            <div class="btn-group">
+                <button class="btn btn-success">
+                    Cadastrar
+                </button>
+                <button data-bs-toggle="dropdown" class="btn btn-success dropdown-toggle"></button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li class="dropdown-item">
+                        <a href="#">Novo usuário</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#">Novo fornecedor</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#">Novo funcionário</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <div class="container pt-5 pb-5">
+        <div class="dropdown">
+            <div class="btn-group">
+                <button class="btn btn-success">
+                    Cadastro Geral
+                </button>
+                <button data-bs-toggle="dropdown" class="btn btn-success dropdown-toggle"></button>
+                <ul class="dropdown-menu dropdown-menu-dark border-0 shadow">
+                    <li class="dropdown-item">
+                        <a href="#">Novo usuário</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#">Novo fornecedor</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#">Novo funcionário</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                        <!-- <button class="btn btn-success w-100" data-bs-toggle="dropdown">
+                            Pesquisar &raquo
+                        </button> -->
+                        <a class="dropdown-item fw-bold" href="#">
+                            Pesquisar &raquo;
+                        </a>
+                        <ul class="dropdown-menu dropdown-submenu dropdown-menu-dark border-0 shadow">
+                            <li class="dropdown-item">
+                                <a href="#">Por usuário</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">Por fornecedor</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">Por funcionário</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>    
+
     <script src="./lib/bootstrap.bundle.min.js"></script>
 </body>
 </html>
