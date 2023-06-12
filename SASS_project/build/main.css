@@ -1,24 +1,16 @@
-body {
-  background-color: #eee;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-header {
-  background-color: #eee;
-}
-header h1 {
-  color: #111;
-}
-
-button {
-  padding: 16px;
-  background-color: #111;
-  color: #eee;
-}
-button.sucesso {
+.produtos {
   background-color: green;
 }
-button:hover {
-  background-color: yellow;
+
+body {
+  background-color: #ccc;
 }
 
 /*# sourceMappingURL=main.css.map */

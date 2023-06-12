@@ -1,29 +1,8 @@
+@use 'config/reset';
+@use 'config/cores';
+@use 'sections/produtos';
 
-$corPrincipal: #eee;
-$corSecundaria: #111;
 
-body{
-    background-color: $corPrincipal;
-}
-
-header{
-    background-color: $corPrincipal;
-
-    h1{
-        color: $corSecundaria;
-    }
-}
-button{
-    padding: 16px;
-    background-color: $corSecundaria;
-    color: $corPrincipal;
-
-    &.sucesso{
-        background-color: green;
-    } 
-    
-    &:hover{
-        background-color: yellow;
-    }
-    
+body {
+    background-color: cores.$corDeFundo;
 }
