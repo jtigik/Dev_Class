@@ -1,10 +1,20 @@
 @use 'config/reset';
+@use 'config/variaveis';
+@use 'sass:math';
 
 @mixin elementosForm($margin: 16px){
     padding: 8px;
     display: block;
     width: 100%;
     margin-bottom: $margin;
+}
+
+// Unidade de medida para layouts responsivos é o: 'em'
+// Fórmula: medida alvo / medida atual (de contexto)
+// Assim: 32px / 16px = 2 (em)
+
+@function pixelParaEm($alvoEmPixel, $contextoEmPixel: 16px){
+    @return math.div($alvoEmPixel, $contextoEmPixel);
 }
 
 body{
@@ -19,8 +29,9 @@ body{
 
 header{
     padding: 16px 0;
-    background-color: yellow;
+    background-color: variaveis.$corPrincipal;
     text-align: center;
+    color: #fff;
 }
 
 .form-container{
@@ -29,20 +40,42 @@ header{
     flex-direction: column; /*Alterando a disposição dos elementos*/
     align-items: center;
     justify-content: center;
+    max-width: 760px;
 
+    h2{
+        font-size: pixelParaEm(48px);
+        text-align: center;
+
+    }
     form{
         width: 100%;
         max-width: 480px;
         margin-top: 40px;
 
+        label{
+            font-weight: bold;
+            cursor: pointer;
+        }
+
         input{
             @include elementosForm(16px);
             background-color: transparent;
             border: none;
-            border-bottom: 1px solid #000;
+            border-bottom: 3px solid variaveis.$corPrincipal;
         }
         button{
             @include elementosForm();
+            background-color: variaveis.$corSecundaria;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
         }
+    }
+}
+@media screen and (max-width: variaveis.$mobile) {
+    body{
+        background-color: yellow;
     }
 }
