@@ -21,6 +21,12 @@ header, footer{
     color: #fff;
 }
 
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
 header {
     position: sticky;
     top: 0;
