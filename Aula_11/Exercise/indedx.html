@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Sneakers</title>
+</head>
+<body>
+    <header>
+        <div class="container container_flex">
+            <h1>Sneakers - Shop</h1>        
+            <div class="btn_menu">
+                <button type="button">Abrir Menu</button>
+            </div>
+        
+            <nav>
+                <div class="container">
+                    <ul class="menu">
+                        <li>
+                            <a href="#sobre">Sobre a loja</a>
+                        </li>
+                        <li>
+                            <a href="#produtos">Produtos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </nav>
+        </div>
+    </header>
+    <div class="container conteudo">
+        <main><!-- Conteudo principal -->
+            <section id="sobre" class="sobre">
+                <h2>Sobre a loja</h2>
+                <article class="produto">
+                    <a href="#">
+                        <img src="./images/About_Image.png"/>
+                    </a>    
+                    <h3>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo labore nihil error numquam. Vero, voluptates. Quia nam voluptates sit. Pariatur corrupti laborum dolores quibusdam quidem tempora aliquam commodi nobis rem.
+                    </h3>
+                </article>
+            </section>
+            <section id="produtos">
+                <h2>Produtos</h2>
+                <div class="produtos">
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./images/adidas.png"/>
+                        </a>
+                        <h3>
+                            Tênis Adidas Coreracer
+                        </h3>
+                        <button type="button" >Adicionar ao carrinho</button>
+                    </article>
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./images/Mizuno.png"/>
+                        </a>
+                        <h3>
+                            Tênis Mizuno Wave Titan 2
+                        </h3>
+                        <button type="button" >Adicionar ao carrinho</button>
+                    </article>
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./images/Nike.png"/>
+                        </a>
+                        <h3>
+                            Tênis Nike Downshifter 12
+                        </h3>
+                        <button type="button" >Adicionar ao carrinho</button>
+                    </article>
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./images/Olympikus.png"/>
+                        </a>
+                        <h3>
+                            Tênis Olympikus Estilo
+                        </h3>
+                        <button type="button" >Adicionar ao carrinho</button>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="container container_flex">
+            <p>
+                2023 &copy; Sneakers Shop - Todos os direitos reservados.
+            </p>
+            <ul class="container_flex">
+                <li>
+                    <a href="#">
+                        <img src="./icons/facebook.png" alt="Facebook logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icons/instagram.png" alt="Instagram logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icons/youtube.png" alt="YouTube logo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.btn_menu button').click(function(){
+                $('.menu').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>
