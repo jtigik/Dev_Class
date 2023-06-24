@@ -110,6 +110,10 @@ section h2,
     font-size: 24px;
 }
 
+.articles article img{
+    max-height: 230px;
+}
+
 section h2{
     font-size: 32px;
 }

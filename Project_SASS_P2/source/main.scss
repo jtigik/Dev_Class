@@ -14,7 +14,7 @@
 // Assim: 32px / 16px = 2 (em)
 
 @function pixelParaEm($alvoEmPixel, $contextoEmPixel: 16px){
-    @return math.div($alvoEmPixel, $contextoEmPixel);
+    @return math.div($alvoEmPixel, $contextoEmPixel)+em;
 }
 
 body{
