@@ -53,24 +53,34 @@
             </tr>
         </tbody>
     </table>
-    <div class="accordion">
+    <div class="accordion" id="accordionExample">
         <div class="accordion-item">
-            <div class="accordion-header">
-                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta1">Pergunta 1</button>
+            <div class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#resposta1" aria-expanded="true" aria-controls="resposta1">Pergunta 1</button>
             </div>
-            <div id="resposta1" class="accordio-collapse collapse show">
+            <div id="resposta1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-mdb-parent="#accordionExample">
                 <div class="accordion-body">
                     Resposta da pergunta 1
                 </div>
             </div>
         </div>
         <div class="accordion-item">
-            <div class="accordion-header">
-                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta2">Pergunta 2</button>
+            <div class="accordion-header" id="headingTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#resposta2" aria-expanded="false" aria-controls="resposta2">Pergunta 2</button>
             </div>
-            <div id="resposta2" class="accordio-collapse collapse">
+            <div id="resposta2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-mdb-parent="#accordionExample">
                 <div class="accordion-body">
                     Resposta da pergunta 2
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" id="headingThree">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#resposta3" aria-expanded="false" aria-controls="resposta3">Pergunta 3</button>
+            </div>
+            <div id="resposta3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-mdb-parent="#accordionExample">
+                <div class="accordion-body">
+                    Resposta da pergunta 3
                 </div>
             </div>
         </div>
