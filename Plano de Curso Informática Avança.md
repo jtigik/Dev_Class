@@ -26,9 +26,9 @@
 - Gerenciamento avançado de arquivos: organização, compactação, backup e recuperação de dados.
 - Segurança no Windows: configuração de firewall, antivírus e proteção contra ameaças digitais.
 - Integração com dispositivos móveis e sincronização de dados.
-- Virtualização básica: uso de máquinas virtuais (Hyper-V ou VirtualBox) (2 horas).
-- Gerenciamento de redes locais: configuração de compartilhamento de arquivos e impressoras (2 horas).
-- Projeto prático: criação de um ambiente de trabalho personalizado com backup automatizado (2 horas).
+- Virtualização básica: uso de máquinas virtuais (Hyper-V ou VirtualBox).
+- Gerenciamento de redes locais: configuração de compartilhamento de arquivos e impressoras.
+- Projeto prático: criação de um ambiente de trabalho personalizado com backup automatizado.
 
 ### Módulo 2: Microsoft Word – Documentos Profissionais e Colaboração (22 horas)
 - Formatação avançada: estilos personalizados, sumários automáticos, referências cruzadas, notas de rodapé.
@@ -36,9 +36,9 @@
 - Colaboração em tempo real com Microsoft 365: revisão, comentários e controle de alterações.
 - Exportação e integração: PDF interativo, integração com outros aplicativos Office.
 - Boas práticas de acessibilidade (ex.: cabeçalhos, descrições para imagens).
-- Criação de mala direta avançada: integração com Excel (2 horas).
-- Uso de complementos (add-ins) no Word (ex.: Grammarly, ferramentas de tradução) (1 hora).
-- Projeto prático: desenvolvimento de um manual corporativo com acessibilidade e colaboração (4 horas).
+- Criação de mala direta avançada: integração com Excel.
+- Uso de complementos (add-ins) no Word (ex.: Grammarly, ferramentas de tradução).
+- Projeto prático: desenvolvimento de um manual corporativo com acessibilidade e colaboração.
 
 ### Módulo 3: Microsoft Excel – Análise de Dados e Automação (30 horas)
 - Funções avançadas: PROCV, PROCH, ÍNDICE, CORRESP, funções lógicas e condicionais.
@@ -46,10 +46,10 @@
 - Automação com macros: criação e edição para tarefas repetitivas.
 - Importação de dados externos (CSV, bancos de dados).
 - Dashboards e visualização de dados para relatórios profissionais.
-- Power Query: importação e transformação de dados complexos (3 horas).
-- Power Pivot: modelagem de dados para análises avançadas (2 horas).
-- Introdução ao VBA: criação de scripts personalizados (3 horas).
-- Projeto prático: construção de um dashboard interativo com Power Query (2 horas).
+- Power Query: importação e transformação de dados complexos.
+- Power Pivot: modelagem de dados para análises avançadas.
+- Introdução ao VBA: criação de scripts personalizados.
+- Projeto prático: construção de um dashboard interativo com Power Query.
 
 ### Módulo 4: Microsoft PowerPoint – Apresentações Estratégicas (22 horas)
 - Design avançado: temas personalizados, transições e animações profissionais.
@@ -57,9 +57,9 @@
 - Criação de apresentações para públicos específicos (ex.: relatórios, pitches).
 - Colaboração em apresentações com Microsoft 365 e exportação para diferentes formatos.
 - Técnicas de apresentação: storytelling e boas práticas para engajamento.
-- Uso de ferramentas de design integradas (ex.: Designer do PowerPoint) e externas (ex.: Canva) (2 horas).
-- Criação de apresentações interativas com hiperlinks e navegação não linear (2 horas).
-- Projeto prático: desenvolvimento de um pitch corporativo com multimídia (3 horas).
+- Uso de ferramentas de design integradas (ex.: Designer do PowerPoint) e externas (ex.: Canva).
+- Criação de apresentações interativas com hiperlinks e navegação não linear.
+- Projeto prático: desenvolvimento de um pitch corporativo com multimídia.
 
 ### Módulo 5: Colaboração em Nuvem e Ferramentas Mobile (22 horas)
 - Uso avançado do Microsoft 365: OneDrive, Teams e SharePoint.
@@ -67,19 +67,19 @@
 - Gerenciamento de projetos: Trello, Microsoft Planner ou similares.
 - Sincronização e compartilhamento seguro de arquivos entre dispositivos.
 - Boas práticas de organização digital e produtividade.
-- Uso avançado do Microsoft Teams: configuração de canais e automação (2 horas).
-- Introdução ao Microsoft Forms para pesquisas e formulários colaborativos (2 horas).
-- Projeto prático: planejamento de um projeto em equipe com Teams e Planner (3 horas).
+- Uso avançado do Microsoft Teams: configuração de canais e automação.
+- Introdução ao Microsoft Forms para pesquisas e formulários colaborativos.
+- Projeto prático: planejamento de um projeto em equipe com Teams e Planner.
 
 ### Módulo 6: Segurança Digital e Ética no Uso de Tecnologia (16 horas)
 - Boas práticas de segurança: proteção contra phishing, senhas seguras, autenticação de dois fatores.
 - Privacidade de dados: LGPD e implicações no uso de ferramentas digitais.
 - Ética digital: uso responsável de softwares, respeito à propriedade intelectual.
 - Configuração de backups automáticos e recuperação de dados.
-- Análise de ameaças digitais: identificação de malware e mitigação (2 horas).
-- Criptografia básica: proteção de arquivos e comunicações (2 horas).
-- Workshop prático: simulação de ataque de phishing e configuração de segurança em e-mails (2 horas).
-- Projeto final: plano de segurança digital para uma pequena empresa (2 horas).
+- Análise de ameaças digitais: identificação de malware e mitigação.
+- Criptografia básica: proteção de arquivos e comunicações.
+- Workshop prático: simulação de ataque de phishing e configuração de segurança em e-mails.
+- Projeto final: plano de segurança digital para uma pequena empresa.
 
 ## 4. Distribuição da Carga Horária
 | Módulo | Carga Horária |
