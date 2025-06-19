@@ -134,6 +134,14 @@
 - **Documentação**: RG, CPF, comprovante de residência e certificado do curso "Informática Fundamental" ou equivalente.
 - **Customização**: O plano pode ser adaptado conforme diretrizes do Senac e necessidades regionais.
 
+## 11. Referências Bibliográficas
+- BRASIL. *Catálogo Nacional de Cursos Técnicos*. 4. ed. Brasília: Ministério da Educação, 2020. Disponível em: <http://portal.mec.gov.br>. Acesso em: 19 jun. 2025.
+- BRASIL. *Lei nº 13.709, de 14 de agosto de 2018*. Lei Geral de Proteção de Dados Pessoais (LGPD). Diário Oficial da União, Brasília, DF, 15 ago. 2018. Disponível em: <http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709.htm>. Acesso em: 19 jun. 2025.
+- CERT.BR. *Cartilha de Segurança para Internet*. São Paulo: Centro de Estudos, Resposta e Tratamento de Incidentes de Segurança no Brasil, 2023. Disponível em: <https://cartilha.cert.br>. Acesso em: 19 jun. 2025.
+- MICROSOFT. *Microsoft 365 Training*. [S.l.]: Microsoft, 2025. Disponível em: <https://support.microsoft.com/en-us/office>. Acesso em: 19 jun. 2025.
+- MICROSOFT. *Windows 11 Technical Documentation*. [S.l.]: Microsoft, 2025. Disponível em: <https://docs.microsoft.com/en-us/windows>. Acesso em: 19 jun. 2025.
+- SERVIÇO NACIONAL DE APRENDIZAGEM COMERCIAL (SENAC). *Catálogo Nacional de Cursos Técnicos*. Brasília: Senac, 2023. Disponível em: <https://www.senac.br>. Acesso em: 19 jun. 2025.
+
 ---
 
 **Nota**: Este plano foi elaborado com base no curso "Informática Fundamental Office e Mobile" do Senac, com ajustes para 120 horas e foco em competências avançadas. Para implementação, consultar o Senac local.
