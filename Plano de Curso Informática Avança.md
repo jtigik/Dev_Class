@@ -2,7 +2,7 @@
 
 ## 1. Identificação do Curso
 - **Nome do Curso**: Informática Avançada: Produtividade e Gestão Digital
-- **Modalidade**: Presencial e/ou EAD (síncrono e assíncrono, com atividades práticas em laboratório)
+- **Modalidade**: Presencial
 - **Carga Horária**: 120 horas
 - **Público-Alvo**: Profissionais, estudantes ou interessados que concluíram o curso "Informática Fundamental Office e Mobile" ou possuem conhecimentos equivalentes.
 - **Pré-requisitos**:
